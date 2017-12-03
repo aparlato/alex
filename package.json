@@ -1,0 +1,30 @@
+{
+  "name": "alex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aparlato/alex.git",
+  "author": "Alex Parlato <alex.parlato@mapbox.com>",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "browserify src/index.js | uglifyjs > bundle.js",
+    "start": "budo src/index.js:bundle.js --live"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "prettier": "^1.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.2.2",
+    "uglify": "^0.1.5"
+  }
+}

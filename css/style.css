@@ -1,0 +1,66 @@
+html, body, #app, .app {margin:0;padding:0;height:100%;}
+
+.menuContainer {
+}
+
+.menuItem {
+	font-family: Helvetica;
+	font-weight: 100;
+	cursor: pointer;
+	line-height: 0px;
+	margin-left: 10px;
+}
+
+.menuItem:hover {
+	color:blue;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.workContainer {
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.bg-pink {
+	background-color: pink;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/*COLUMNS*/
+
+.col--1 { flex: none; width: 08.3333% !important; }
+.col--2 { flex: none; width: 16.6666% !important; }
+.col--3 { flex: none; width: 25% !important; }
+.col--4 { flex: none; width: 33.3333% !important; }
+.col--5 { flex: none; width: 41.6666% !important; }
+.col--6 { flex: none; width: 50% !important; }
+.col--7 { flex: none; width: 58.3333% !important; }
+.col--8 { flex: none; width: 66.6666% !important; }
+.col--9 { flex: none; width: 75% !important; }
+.col--10 { flex: none; width: 83.3333% !important; }
+.col--11 { flex: none; width: 91.6666% !important; }
+.col--12 { flex: none; width: 100% !important; }
